@@ -1,11 +1,12 @@
-#
+# main.py
 
 import SimulatedAnnealing as sa
 import TravellingSalesmanProblem
 import TSPCity
-import CoolingRate as cr
+from src import CoolingRate as cr
 
 if __name__ == "__main__":
+
     # Create instances of cities
     city_a = TSPCity.City("City A", 0, 0)
     city_b = TSPCity.City("City B", 1, 2)
@@ -46,7 +47,6 @@ if __name__ == "__main__":
     length_updated_random_path = tsp.calculate_path_length(updated_random_path)
     print("Length of the new random path:", length_updated_random_path)
     '''
-
 
     initial_temperature = 100
     max_iterations = 3000

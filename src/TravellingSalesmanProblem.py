@@ -1,4 +1,4 @@
-#
+# ...
 
 import random
 import math
@@ -22,8 +22,19 @@ class TSP:
             del self.graph[city1][city2]
             del self.graph[city2][city1]
 
-    def calculate_distance(self, city1, city2):
+    def euclidean_distance(self, city1, city2):
         return math.sqrt((city2.x - city1.x) ** 2 + (city2.y - city1.y) ** 2)
+
+    def manhattan_distance(self, city1, city2):
+        return abs(city2.x - city1.x) + abs(city2.y - city1.y)
+
+    def calculate_distance(self, city1, city2, type='euclidean'):
+        if type == 'euclidean':
+            return self.euclidean_distance(city1, city2)
+        elif type == 'manhattan':
+            return self.manhattan_distance(city1, city2)
+        else:
+            raise ValueError("Invalid distance type")
 
     def generate_complete_graph(self, cities):
         for i in range(len(cities)):
