@@ -3,7 +3,7 @@
 import SimulatedAnnealing as sa
 import TravellingSalesmanProblem
 import TSPCity
-from src import CoolingRate as cr
+import CoolingRate as cr
 
 if __name__ == "__main__":
 
