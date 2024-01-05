@@ -2,20 +2,26 @@
 
 import math
 
+
 def linear_cooling(initial_temperature, iteration, max_iterations):
     return initial_temperature * (1 - iteration / float(max_iterations))
+
 
 def exponential_cooling(initial_temperature, iteration, decay_rate):
     return initial_temperature * (decay_rate ** iteration)
 
+
 def logarithmic_cooling(initial_temperature, iteration, factor):
     return initial_temperature / math.log(iteration + factor)
+
 
 def geometric_cooling(initial_temperature, iteration, alpha):
     return initial_temperature * alpha / (1 + alpha * (iteration - 1))
 
+
 def boltzmann_cooling(initial_temperature, iteration):
     return initial_temperature / math.log(1 + iteration)
+
 
 def get_cooling_rate(initial_temperature, max_iterations, cooling_type='linear', **kwargs):
     if cooling_type == 'linear':
