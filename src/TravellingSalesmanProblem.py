@@ -1,7 +1,6 @@
-#
+# TravellingSalesmanProblem.py
 
 import random
-import math
 import copy
 
 
@@ -38,7 +37,7 @@ class TSP:
             self.t[i_tilde+l-1] = self.c[j_tilde-l-1]
         for w in range(j_tilde+1, self.N+1):
             self.t[w-1] = self.c[w-1]
-
+        return self.t
 
     def calculate_value(self):
         self.d = self.D[self.c[self.N-1]][self.c[0]]

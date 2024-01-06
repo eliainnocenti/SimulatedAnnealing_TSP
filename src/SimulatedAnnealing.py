@@ -1,7 +1,10 @@
+# SimulatedAnnealing.py
+
 # implementation of the Simulated Annealing algorithm (R&N 2009 §4.1.2 simpler version)
 
 import random
 import math
+
 
 def simulated_annealing(problem, cooling_rate):
 
@@ -15,7 +18,7 @@ def simulated_annealing(problem, cooling_rate):
         except StopIteration:
             break
 
-        if current_temperature == 0.001:  # If temperature reaches 0, return the current state
+        if current_temperature == 0.000001:  # If temperature reaches 0, return the current state
             return current_state
 
         next_state = problem.get_random_successor()  # Get a random successor state

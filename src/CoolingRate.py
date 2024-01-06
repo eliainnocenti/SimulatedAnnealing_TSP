@@ -1,4 +1,4 @@
-# ...
+# CoolingRate.py
 
 import math
 

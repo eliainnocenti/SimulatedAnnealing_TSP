@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  28 DEC 2023 09:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  6 JAN 2024 12:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -275,20 +275,20 @@ orsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/SimulatedAnnealing_TSP
 .aux)
 \openout1 = `SimulatedAnnealing_TSP.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
  (/usr/local/texlive/2022/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count292
@@ -349,30 +349,373 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(48.36958pt, 666.9326pt, 79.6678pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=666.9326pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-60.9004pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=59.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+./SimulatedAnnealing_TSP.tex:69: Misplaced alignment tab character &.
+l.69 ...g (nella semplice versione descritta in R&
+                                                  N 2009 §4.1.2) e
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./SimulatedAnnealing_TSP.tex:77: Misplaced alignment tab character &.
+l.77 ...i fa riferimento è quello riportato in R&
+                                                  N 2009 §4.1.2.
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./SimulatedAnnealing_TSP.tex:83: Undefined control sequence.
+l.83             \captionabove
+                              {\underline{SIMULATED-ANNEALING(problema, velo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+./SimulatedAnnealing_TSP.tex:86: Missing $ inserted.
+<inserted text> 
+                $
+l.86                 $corrente$ \leftarrow
+                                           $problema.STATOINIZIALE$ \\
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./SimulatedAnnealing_TSP.tex:86: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.86 ...te$ \leftarrow $problema.STATOINIZIALE$ \\
+                                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./SimulatedAnnealing_TSP.tex:86: Missing $ inserted.
+<inserted text> 
+                $
+l.86 ...te$ \leftarrow $problema.STATOINIZIALE$ \\
+                                                  
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.101         \end
+                  {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./SimulatedAnnealing_TSP.tex:101: Extra }, or forgotten $.
+<recently read> \egroup 
+                        
+l.101         \end
+                  {algorithm}
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./SimulatedAnnealing_TSP.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end
+                  {algorithm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./SimulatedAnnealing_TSP.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end
+                  {algorithm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./SimulatedAnnealing_TSP.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end
+                  {algorithm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+./SimulatedAnnealing_TSP.tex:101: LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.101         \end
+                  {algorithm}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing $ inserted.
+<inserted text> 
+                $
+l.101         \end
+                  {algorithm}
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:101: Missing } inserted.
+<inserted text> 
+                }
+l.101         \end{algorithm}
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Underfull \hbox (badness 10000) detected at line 101
+[][]
+ []
+
+./SimulatedAnnealing_TSP.tex:101: Missing } inserted.
+<inserted text> 
+                }
+l.101         \end{algorithm}
+                             
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
 [1
 
+
 {/usr/local/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+./SimulatedAnnealing_TSP.tex:111: Misplaced alignment tab character &.
+l.111 ...� fedele allo pseudocodice fornito dal R&
+                                                  N 2009, di conseguenza la ...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+./SimulatedAnnealing_TSP.tex:118: Missing $ inserted.
+<inserted text> 
+                $
+l.118 ...ene costruito un array di dimensione max_
+                                                  iteration con i valori del...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./SimulatedAnnealing_TSP.tex:120: Missing $ inserted.
+<inserted text> 
+                $
+l.120 
+      
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+<matrix1.png, id=18, 525.965pt x 274.02374pt>
+File: matrix1.png Graphic file (type png)
+<use matrix1.png>
+Package pdftex.def Info: matrix1.png  used on input line 129.
+(pdftex.def)             Requested size: 215.0023pt x 112.01596pt.
+[2
+
+ </Users/eliainnocenti/Library/Mobile Documents/com~apple~CloudDocs/File/UNIFI/
+Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/matrix1.png>]
+./SimulatedAnnealing_TSP.tex:152: Misplaced alignment tab character &.
+l.152         Russell, S., &
+                             Norvig, P. (2009). Artificial Intelligence: A M...
+I can't figure out why you would want to use a tab mark
+here. If you just want an ampersand, the remedy is
+simple: Just type `I\&' now. But if some right brace
+up above has ended a previous alignment prematurely,
+you're probably due for more error messages, and you
+might try typing `S' now just to see what is salvageable.
+
+[3]
 (/Users/eliainnocenti/Library/Mobile Documents/com~apple~CloudDocs/File/UNIFI/C
 orsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/SimulatedAnnealing_TSP
 .aux) ) 
 Here is how much of TeX's memory you used:
- 6546 strings out of 478268
- 108719 string characters out of 5846347
- 409930 words of memory out of 5000000
- 24712 multiletter control sequences out of 15000+600000
- 473268 words of font info for 42 fonts, out of 8000000 for 9000
+ 6592 strings out of 478268
+ 109363 string characters out of 5846347
+ 416977 words of memory out of 5000000
+ 24748 multiletter control sequences out of 15000+600000
+ 477030 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,63p,321b,261s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10
-.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.p
-fb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb
->
+ 55i,17n,63p,321b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/usr/local/texlive/2022/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts
+1.enc}</usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10
+.pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.
+pfb></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pf
+b></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+></usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
+/usr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></u
+sr/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr
+/local/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/l
+ocal/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/loca
+l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
+/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/
+texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/Users/eliainnocenti/Library/Mobile Documents/com~apple~Clou
 dDocs/File/UNIFI/Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/Simu
-latedAnnealing_TSP.pdf" (1 page, 32989 bytes).
+latedAnnealing_TSP.pdf" (3 pages, 171490 bytes).
 PDF statistics:
- 23 PDF objects out of 1000 (max. 8388607)
- 13 compressed objects within 1 object stream
+ 76 PDF objects out of 1000 (max. 8388607)
+ 45 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,43 +1,84 @@
 # main.py
 
+# files.py
 import SimulatedAnnealing as sa
 import TravellingSalesmanProblem
 import CoolingRate as cr
-import numpy as np
+from matrix1 import matrix1
+
+# modules
+#import numpy as np # FIXME
+import time
+#import sys
+
+
+# TODO - implement
+def read_matrix_from_file(file_path):
+    """
+    try:
+        with open(file_path, 'r') as file:
+            lines = file.readlines()
+            matrix = np.array([list(map(int, line.split()))] for line in lines])
+            return matrix
+    except FileNotFoundError:
+        print(f"File '{file_path}' not found.")
+        return None
+    """
+    return None
+
 
 if __name__ == "__main__":
 
-    N = 10
+    # TODO - implement
+    '''
+    if len(sys.argv) > 1:
+        first_argument = sys.argv[1]
+        if first_argument == 'matrix1':
+            settings = 'default'
+        elif first_argument == 'random' and len(sys.argv) == 3:
+            N = int(sys.argv[2])
+            #matrix = np.random.random((N,N)) # FIXME
+            #np.fill_diagonal(matrix,0) # FIXME
+        elif first_argument.endswith('.py'):
+            matrix = read_matrix_from_file(first_argument) # FIXME
+            if matrix.shape[0] != matrix.shape[1]:
+                print('') # ...
+                sys.exit()
 
-    #matrix = np.random.randint(1, 11, size=(10, 10))
+        else:
+            print('') # ...
+    else:
+        #print('')
+        # momentaneamente:
+        settings = 'default'
+    '''
 
-    matrix1 = [[ 0,  9,  9,  6,  7,  2,  9,  4,  1, 10],
-               [ 7,  0,  2,  5,  4, 10,  3,  7,  9,  3],
-               [ 4, 10,  0,  5,  6,  6,  4,  1,  3,  8],
-               [ 7,  4,  2,  0, 10,  8,  4,  5,  8,  8],
-               [10,  7,  9,  7,  0,  7,  8,  8,  2,  7],
-               [ 8,  4,  4,  3, 10,  0,  2,  5,  8,  1],
-               [ 2,  2,  2,  5,  3,  2,  0,  5, 10,  1],
-               [ 3, 10,  2,  4,  9,  8,  7,  0, 10,  9],
-               [ 3,  9,  8,  7,  9,  5,  3,  6,  0,  2],
-               [ 9,  5, 10,  9,  2, 10,  6,  4, 10,  0]]
+    settings = 'default'
+
+    if settings == 'default':
+        N = 10
+        matrix = matrix1
+        cooling_type = 'exponential'
+        decay_rate_input = 0.7
+        initial_temperature = 10000
+        max_iterations = 100
+        n_trials = 1000
 
     tsp = TravellingSalesmanProblem.TSP(N)
 
     tsp.set_matrix(matrix1)
 
-    initial_temperature = 10000000
-    max_iterations = 1000
-
-    cooling_rate = cr.get_cooling_rate(initial_temperature, max_iterations, 'exponential', decay_rate = 0.6)
+    cooling_rate = cr.get_cooling_rate(initial_temperature, max_iterations, cooling_type, decay_rate = decay_rate_input)
 
     paths = []
     lengths = []
 
-    for i in range(10000):
+    for i in range(n_trials):
+        print(str(i), end='\r', flush=True)
+        time.sleep(0.001)
         result_path = sa.simulated_annealing(tsp, cooling_rate)
         paths.append(tsp.get_path())
-        tsp.print_path()
+        #tsp.print_path()
         lengths.append(tsp.get_distance())
 
     dict = {}
@@ -48,10 +89,19 @@ if __name__ == "__main__":
         else:
             dict[length] = [path]
 
+    '''
+    l = list(set(lengths))
+    l.sort()
+    for j in range(len(l)):
+        print('n path with length = ' + str(l[j]) + ': ' + str(len(dict[l[j]])))
+    '''
+
     min_length = min(lengths)
-
-    #print(paths)
-    #print(lengths)
-
+    set_min_length = []
+    for path in dict[min_length]:
+        if path not in set_min_length:
+            set_min_length.append(path)
     print('Minimun length: ', min_length)
-    print(dict[min_length])
+    print('Paths: ')
+    print(set_min_length)
+    print('')
