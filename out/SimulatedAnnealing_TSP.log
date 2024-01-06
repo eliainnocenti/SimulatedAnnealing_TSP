@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  6 JAN 2024 12:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  6 JAN 2024 17:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -650,34 +650,18 @@ up above has ended a previous alignment prematurely,
 you're probably due for more error messages, and you
 might try typing `S' now just to see what is salvageable.
 
-./SimulatedAnnealing_TSP.tex:118: Missing $ inserted.
-<inserted text> 
-                $
-l.118 ...ene costruito un array di dimensione max_
-                                                  iteration con i valori del...
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-./SimulatedAnnealing_TSP.tex:120: Missing $ inserted.
-<inserted text> 
-                $
-l.120 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-<matrix1.png, id=18, 525.965pt x 274.02374pt>
+<matrix1.png, id=18, 525.965pt x 251.94125pt>
 File: matrix1.png Graphic file (type png)
 <use matrix1.png>
 Package pdftex.def Info: matrix1.png  used on input line 129.
-(pdftex.def)             Requested size: 215.0023pt x 112.01596pt.
+(pdftex.def)             Requested size: 344.005pt x 164.7863pt.
 [2
 
  </Users/eliainnocenti/Library/Mobile Documents/com~apple~CloudDocs/File/UNIFI/
 Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/matrix1.png>]
-./SimulatedAnnealing_TSP.tex:152: Misplaced alignment tab character &.
-l.152         Russell, S., &
-                             Norvig, P. (2009). Artificial Intelligence: A M...
+./SimulatedAnnealing_TSP.tex:156: Misplaced alignment tab character &.
+l.156             \item Russell, S., &
+                                       Norvig, P. (2009). Artificial Intelli...
 I can't figure out why you would want to use a tab mark
 here. If you just want an ampersand, the remedy is
 simple: Just type `I\&' now. But if some right brace
@@ -690,10 +674,10 @@ might try typing `S' now just to see what is salvageable.
 orsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/SimulatedAnnealing_TSP
 .aux) ) 
 Here is how much of TeX's memory you used:
- 6592 strings out of 478268
- 109363 string characters out of 5846347
- 416977 words of memory out of 5000000
- 24748 multiletter control sequences out of 15000+600000
+ 6600 strings out of 478268
+ 109492 string characters out of 5846347
+ 416985 words of memory out of 5000000
+ 24756 multiletter control sequences out of 15000+600000
  477030 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,17n,63p,321b,520s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -712,7 +696,7 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/Users/eliainnocenti/Library/Mobile Documents/com~apple~Clou
 dDocs/File/UNIFI/Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/Simu
-latedAnnealing_TSP.pdf" (3 pages, 171490 bytes).
+latedAnnealing_TSP.pdf" (3 pages, 171132 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream

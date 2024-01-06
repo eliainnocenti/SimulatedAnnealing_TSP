@@ -113,9 +113,9 @@
         L'algoritmo utilizza il metodo $get\_initial\_state()$ per ricevere lo stato iniziale, $get\_random\_successor()$ per ricevere un
         successore dello stato iniziale (un random path generato a partire dallo stato corrente) e le funzioni di valutazione $calculate\_value()$
         per valutare gli stati (calcola quindi la lunghezza dei path).
-        Per la modellizzazione del problema è stato seguito il paper: viene utilizzata una matrice di incidenza D i cui elementi D(i,j) rappresenzano il
-        peso dell'arco iche va dal nodo i al nodo j; i nodi sono invece numerati con degli interi che vanno da $0$ a $N-1$, dove $N$ è la dimensione della matrice.
-        Il cooling rate è implementabile in vari modi, in questo caso viene costruito un array di dimensione max_iteration con i valori della temperatura che
+        Per la modellizzazione del problema è stato seguito il paper: viene utilizzata una matrice di incidenza $D$ i cui elementi $D(i,j)$ rappresenzano il
+        peso dell'arco che va dal nodo $i$ al nodo $j$; i nodi sono invece numerati con degli interi che vanno da $0$ a $N-1$, dove $N$ è la dimensione della matrice.
+        Il cooling rate è implementabile in vari modi, in questo caso viene costruito un array di dimensione max\_iteration con i valori della temperatura che
         segue un certo andamento.
 
     % Test and results
@@ -126,12 +126,15 @@
 
         \begin{figure}[h]
             \centering
-            \includegraphics[width=0.5\textwidth]{matrix1.png}
+            \includegraphics[width=0.8\textwidth]{matrix1}
+            \caption{matrice di incidenza del problema e grafo associato.}
+            \label{fig:matrix1}
         \end{figure}
 
         In questo test, è stato verificato che con un tipo di cooling rate esponenziale (con alpa = 0.7), una temperatura iniziale = 10000,
         un numero massimo di iterazioni = 100 e un numero di trials = 1000, si trova sempre il percorso di costo minimo.
-        Il costo è di molto migliorabile se si studia più approfonditamente il modello del problema specifico in questione per ottenere dei paramtri più efficaci.
+        Il costo computazionale (il numero di iterazioni e di trials) è di molto migliorabile se si studia più approfonditamente il modello
+        del problema specifico in questione per ottenere dei paramtri più efficaci.
 
     % Conclusion
     \section{Conclusioni} \label{sec:conclusiona}
@@ -149,8 +152,9 @@
     % Bibliography
     \section{Bibliografia} \label{sec:bibliography}
 
-        Russell, S., & Norvig, P. (2009). Artificial Intelligence: A Modern Approach (3rd ed.)
-
-        Thermodynamical Approach to the Traveling Salesman Problem: An Efficient Simulation Algorithm, V. Černý, 1985
+        \begin{enumerate}
+            \item Russell, S., & Norvig, P. (2009). Artificial Intelligence: A Modern Approach (3rd ed.)
+            \item Thermodynamical Approach to the Traveling Salesman Problem: An Efficient Simulation Algorithm, V. Černý, 1985
+        \end{enumerate}
 
 \end{document}
