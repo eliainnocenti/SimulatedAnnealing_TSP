@@ -1,6 +1,6 @@
 # Simulated Annealing and TSP
 
-Project for Artificial Intelligence @ Unifi - Simulated Annealing Algorithm implementation and application to the Travelling Salesman Problem.
+Project for Artificial Intelligence Exam @ Unifi - Simulated Annealing Algorithm implementation and application to the Travelling Salesman Problem.
 
 ### What it does
 
