@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  6 JAN 2024 17:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2023.3.15)  6 JAN 2024 17:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -659,16 +659,6 @@ Package pdftex.def Info: matrix1.png  used on input line 129.
 
  </Users/eliainnocenti/Library/Mobile Documents/com~apple~CloudDocs/File/UNIFI/
 Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/matrix1.png>]
-./SimulatedAnnealing_TSP.tex:156: Misplaced alignment tab character &.
-l.156             \item Russell, S., &
-                                       Norvig, P. (2009). Artificial Intelli...
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
 [3]
 (/Users/eliainnocenti/Library/Mobile Documents/com~apple~CloudDocs/File/UNIFI/C
 orsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/SimulatedAnnealing_TSP
@@ -696,7 +686,7 @@ l/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 texlive/2022/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on "/Users/eliainnocenti/Library/Mobile Documents/com~apple~Clou
 dDocs/File/UNIFI/Corsi/Intelligenza Artificiale/SimulatedAnnealing_TSP/out/Simu
-latedAnnealing_TSP.pdf" (3 pages, 171132 bytes).
+latedAnnealing_TSP.pdf" (3 pages, 171737 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  45 compressed objects within 1 object stream
